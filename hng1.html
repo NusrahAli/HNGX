@@ -42,8 +42,12 @@
             font-size: 24px;
             color:rgb(108, 50, 8);
             font-weight: bolder;
-
+            margin-bottom:20px;
         }
+            a {
+                text-decoration:none;
+                color: rgb(183, 93, 83);
+                font-size:22px;
         </style>
     </head>
     <body>
@@ -57,6 +61,7 @@
     <h2 data-testid="page-title">Current Day and Time (UTC)</h2>
     <div id = "day" data-testid="currentDayOfTheWeek"></div>
     <div id = "time" data-testid="currentUTCTime"></div>
+        <a href = "https://github.com/NusrahAli/HNGX" data-testid = "githubURL"> GITHUB url</a>
     <script>
        function updateDay() {
             const now = new Date();
